@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <h1>SafeScreen</h1>
+    <label class="switch"><input type="checkbox" id="enabled" /><span>On</span></label>
+  </header>
+
+  <section>
+    <label class="row"><input type="checkbox" id="pauseSite" /> Pause on <b id="host">this site</b></label>
+  </section>
+
+  <section>
+    <h2>Hide</h2>
+    <div id="targets"></div>
+  </section>
+
+  <section>
+    <h2>Sensitivity</h2>
+    <div class="seg" id="sensitivity">
+      <button data-v="low">Low</button><button data-v="medium">Medium</button><button data-v="high">High</button>
+    </div>
+    <p class="hint" id="sensHint"></p>
+  </section>
+
+  <section>
+    <h2>Cover with</h2>
+    <div class="seg" id="maskStyle">
+      <button data-v="blur">Blur</button><button data-v="solid">Colour</button><button data-v="image">Image</button>
+    </div>
+    <div id="solidOpts" class="opts"><input type="color" id="maskColor" /></div>
+    <div id="imageOpts" class="opts">
+      <img id="preview" alt="" />
+      <div>
+        <label class="btn">Choose image…<input type="file" id="file" accept="image/*" hidden /></label>
+        <button class="link" id="resetImage">Use default flower</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <label class="row"><input type="checkbox" id="hideUntilScanned" /> Blur images until scanned</label>
+  </section>
+
+  <footer>Everything runs on this device. Nothing is uploaded.</footer>
+  <script src="shared.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+/* Hide media until SafeScreen has scanned it (fail-closed). Injected as a user stylesheet, so
+   page CSP can't block it, and it applies from the first paint. */
+html:not(.ss-off):not(.ss-nohide) img:not([data-ss]),
+html:not(.ss-off):not(.ss-nohide) video:not([data-ss]),
+html:not(.ss-off) img[data-ss="full"],
+html:not(.ss-off) video[data-ss="full"] {
+  filter: blur(28px) saturate(0.4) !important;
+}

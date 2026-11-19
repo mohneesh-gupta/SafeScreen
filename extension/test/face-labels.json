@@ -1,0 +1,242 @@
+[
+{
+"image": "woman.jpg",
+"cx": 411,
+"cy": 352,
+"gender": "F"
+},
+{
+"image": "man.jpg",
+"cx": 439,
+"cy": 211,
+"gender": "M"
+},
+{
+"image": "swimsuit.jpg",
+"cx": 454,
+"cy": 293,
+"gender": "F"
+},
+{
+"image": "faces/man_1.jpg",
+"cx": 504,
+"cy": 547,
+"gender": "M"
+},
+{
+"image": "faces/man_11.jpg",
+"cx": 501,
+"cy": 275,
+"gender": "M"
+},
+{
+"image": "faces/man_12.jpg",
+"cx": 482,
+"cy": 424,
+"gender": "M"
+},
+{
+"image": "faces/man_4.jpg",
+"cx": 515,
+"cy": 555,
+"gender": "M"
+},
+{
+"image": "faces/man_8.jpg",
+"cx": 515,
+"cy": 536,
+"gender": "M"
+},
+{
+"image": "faces/man_9.jpg",
+"cx": 432,
+"cy": 534,
+"gender": "M"
+},
+{
+"image": "faces/woman_10.jpg",
+"cx": 453,
+"cy": 587,
+"gender": "F"
+},
+{
+"image": "faces/woman_12.jpg",
+"cx": 465,
+"cy": 599,
+"gender": "F"
+},
+{
+"image": "faces/woman_2.jpg",
+"cx": 457,
+"cy": 558,
+"gender": "F"
+},
+{
+"image": "faces/woman_3.jpg",
+"cx": 432,
+"cy": 631,
+"gender": "F"
+},
+{
+"image": "faces/woman_5.jpg",
+"cx": 465,
+"cy": 589,
+"gender": "F"
+},
+{
+"image": "faces/woman_7.jpg",
+"cx": 470,
+"cy": 596,
+"gender": "F"
+},
+{
+"image": "g/f_Carthage_film_festival_opening_10j.jpg",
+"cx": 207,
+"cy": 168,
+"gender": "F"
+},
+{
+"image": "g/f_Donna_MillsHollywood_Reel_Independ.jpg",
+"cx": 191,
+"cy": 203,
+"gender": "F"
+},
+{
+"image": "g/f_Hollywood_Reel_Independent_Film_Fes.jpg",
+"cx": 380,
+"cy": 98,
+"gender": "F"
+},
+{
+"image": "g/f_Hollywood_Reel_Independent_Film_Fes.jpg",
+"cx": 102,
+"cy": 128,
+"gender": "F"
+},
+{
+"image": "g/f_Hollywood_Reel_Independent_Film_Fes.jpg",
+"cx": 240,
+"cy": 114,
+"gender": "F"
+},
+{
+"image": "g/f_Kishimoto_Kayoko_from_Lying_to_Mom.jpg",
+"cx": 254,
+"cy": 334,
+"gender": "F"
+},
+{
+"image": "g/f_Opening_ceremony_of_the_Carthage_Fi.jpg",
+"cx": 187,
+"cy": 188,
+"gender": "F"
+},
+{
+"image": "g/f_Red_carpet_Carthage_Film_Festival_2.jpg",
+"cx": 232,
+"cy": 141,
+"gender": "F"
+},
+{
+"image": "g/f_Red_carpet_Carthage_Film_Festival_2.jpg",
+"cx": 308,
+"cy": 159,
+"gender": "F"
+},
+{
+"image": "g/f_Red_carpet_Carthage_Film_Festival_2.jpg",
+"cx": 160,
+"cy": 135,
+"gender": "M"
+},
+{
+"image": "g/f_Red_carpet_Carthage_Film_Festival_2.jpg",
+"cx": 78,
+"cy": 165,
+"gender": "F"
+},
+{
+"image": "g/f_Rhino_series_premiere_20191107_03.jpg",
+"cx": 287,
+"cy": 58,
+"gender": "M"
+},
+{
+"image": "g/f_Rhino_series_premiere_20191107_03.jpg",
+"cx": 202,
+"cy": 81,
+"gender": "F"
+},
+{
+"image": "g/f_Rhino_series_premiere_20191107_05.jpg",
+"cx": 254,
+"cy": 93,
+"gender": "F"
+},
+{
+"image": "g/m_Actors_Yadira_Pascault_Orozco_and_D.jpg",
+"cx": 160,
+"cy": 231,
+"gender": "F"
+},
+{
+"image": "g/m_Actors_Yadira_Pascault_Orozco_and_D.jpg",
+"cx": 357,
+"cy": 256,
+"gender": "M"
+},
+{
+"image": "g/m_Andrea_Morricone_composer_Lubomir_.jpg",
+"cx": 213,
+"cy": 125,
+"gender": "M"
+},
+{
+"image": "g/m_Andrea_Morricone_composer_Lubomir_.jpg",
+"cx": 311,
+"cy": 106,
+"gender": "M"
+},
+{
+"image": "g/m_Andrea_Morricone_composer_Lubomir_.jpg",
+"cx": 136,
+"cy": 119,
+"gender": "M"
+},
+{
+"image": "g/m_Jill_Biden_and_Maryna_Poroshenko_at.jpg",
+"cx": 258,
+"cy": 92,
+"gender": "F"
+},
+{
+"image": "g/m_Jill_Biden_and_Maryna_Poroshenko_at.jpg",
+"cx": 110,
+"cy": 148,
+"gender": "M"
+},
+{
+"image": "g/m_Maryna_Poroshenkos_visit_to_Croati.jpg",
+"cx": 202,
+"cy": 125,
+"gender": "F"
+},
+{
+"image": "g/m_Maryna_Poroshenkos_visit_to_Croati.jpg",
+"cx": 326,
+"cy": 94,
+"gender": "M"
+},
+{
+"image": "g/m_Opening_ceremony_of_the_Carthage_Fi.jpg",
+"cx": 262,
+"cy": 192,
+"gender": "M"
+},
+{
+"image": "g/m_Yakusho_Koji_from_Actor_in_Focus_K.jpg",
+"cx": 224,
+"cy": 373,
+"gender": "M"
+}
+]
