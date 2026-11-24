@@ -1,6 +1,7 @@
-node_modules
-dist
-dist-electron
-.cache
+node_modules/
+coverage/
 *.log
-coverage
+src/vendor/
+src/models/
+test/.profile/
+test/out/

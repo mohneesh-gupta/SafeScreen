@@ -7,13 +7,12 @@ picture (a flower by default, or your own image). Detection runs fully on your d
 ## Install (Chrome / Edge / Brave)
 
 ```powershell
-cd extension
 npm install
 npm run setup      # copies the ONNX runtime, downloads NudeNet (~12 MB) and the face gender model (~2.4 MB)
 ```
 
 Then open `chrome://extensions` (or `edge://extensions`), turn on **Developer mode**, click
-**Load unpacked** and pick the `extension/src` folder. Click the SafeScreen toolbar icon for settings.
+**Load unpacked** and pick the `src` folder. Click the SafeScreen toolbar icon for settings.
 
 ## How it works
 

@@ -65,12 +65,11 @@ using the sites you need without seeing what you don't want to see.
 1. Open a terminal in the project folder and run:
 
    ```powershell
-   cd extension
    npm install
    npm run setup
    ```
 
-   `npm run setup` downloads the two AI models (about 15 MB in total) into `extension/src/models`.
+   `npm run setup` downloads the two AI models (about 15 MB in total) into `src/models`.
 
 2. Open your browser's extensions page:
    - Chrome / Brave: `chrome://extensions`
@@ -78,7 +77,7 @@ using the sites you need without seeing what you don't want to see.
 
 3. Turn on **Developer mode** (a toggle in the top-right corner, or the left sidebar in Edge).
 
-4. Click **Load unpacked** and select the **`extension/src`** folder.
+4. Click **Load unpacked** and select the **`src`** folder.
 
 5. Pin SafeScreen to your toolbar: click the puzzle-piece icon, then the pin next to SafeScreen.
 
@@ -86,7 +85,7 @@ That's it. SafeScreen is now active on every website.
 
 ### Updating
 
-After pulling new code, run `npm run setup` again inside `extension/`, then click the **reload ↻**
+After pulling new code, run `npm run setup` again from the project folder, then click the **reload ↻**
 button on the SafeScreen card in `chrome://extensions`.
 
 ---
@@ -125,7 +124,7 @@ every open tab, with no reload needed.
 
 A new image is typically checked in about 0.1–0.3 seconds.
 
-Technical details, tests and file layout are in [`extension/README.md`](extension/README.md).
+Technical details, tests and file layout are in [`DEVELOPMENT.md`](DEVELOPMENT.md).
 
 ---
 
@@ -164,11 +163,11 @@ Other planned improvements:
 
 ```
 safeScreen/
-├── extension/          ← the SafeScreen browser extension (current product)
-│   ├── src/            ← load this folder in the browser
-│   ├── scripts/        ← setup (model download) and asset generation
-│   └── test/           ← automated tests
-└── src/, scripts/ …    ← earlier Electron desktop prototype (no longer maintained)
+├── src/                ← load this folder in the browser
+├── scripts/            ← setup (model download) and asset generation
+├── test/               ← automated tests
+├── package.json
+└── DEVELOPMENT.md      ← technical details and test instructions
 ```
 
 ---

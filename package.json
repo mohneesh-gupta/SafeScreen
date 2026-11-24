@@ -1,40 +1,15 @@
 {
-  "name": "safe-screen",
-  "version": "0.1.0",
+  "name": "safescreen-extension",
+  "version": "0.2.0",
   "private": true,
-  "description": "Windows-first desktop app that masks unwanted screen content in real time.",
-  "main": "dist-electron/main/main.js",
   "type": "module",
+  "description": "SafeScreen browser extension: hides chosen people/body regions in web images and videos, fully on-device.",
   "scripts": {
-    "dev": "node scripts/dev.mjs",
-    "dev:renderer": "vite",
-    "dev:electron": "npm run build:electron && wait-on tcp:4173 && cross-env VITE_DEV_SERVER_URL=http://127.0.0.1:4173 electron .",
-    "build": "npm run build:renderer && npm run build:electron",
-    "build:renderer": "vite build",
-    "build:electron": "tsc -p tsconfig.electron.json",
-    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.electron.json",
-    "download:model": "node scripts/prefetch-model.mjs"
-  },
-  "dependencies": {
-    "@electron-toolkit/preload": "^3.0.1",
-    "@electron-toolkit/utils": "^3.0.0",
-    "@huggingface/transformers": "^3.8.1",
-    "electron-store": "^10.0.0",
-    "onnxruntime-node": "^1.20.1",
-    "pngjs": "^7.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "setup": "node scripts/setup.mjs",
+    "test": "node test/e2e.mjs"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.4",
-    "concurrently": "^9.1.0",
-    "cross-env": "^7.0.3",
-    "electron": "^33.2.1",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.3",
-    "wait-on": "^8.0.1"
+    "onnxruntime-web": "^1.31.1",
+    "puppeteer": "^25.18.1"
   }
 }

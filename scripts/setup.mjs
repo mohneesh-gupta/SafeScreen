@@ -32,7 +32,7 @@ if (!(await stat(genderPath).then(() => true, () => false))) {
   if (!res.ok) throw new Error(`Gender model download failed: ${res.status}`);
   await writeFile(genderPath, Buffer.from(await res.arrayBuffer()));
 }
-console.log("Setup complete. Load the extension/src folder as an unpacked extension.");
+console.log("Setup complete. Load the src folder as an unpacked extension.");
 
 function extractZipEntry(zip, name) {
   const eocd = zip.lastIndexOf(Buffer.from([0x50, 0x4b, 0x05, 0x06]));
